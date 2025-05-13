@@ -64,3 +64,9 @@ body {
   border-bottom: 2px solid #eee;
   padding-bottom: 10px;
 }
+
+@media (width <= 600px) {
+  #calculator {
+    width: 90%;
+  }
+}
