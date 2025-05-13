@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crest Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Crest Calculator</h1>
+    <div id="calculator">
+      <!--      <label for="crestType">Select crest type:</label>
+      <select name="" id="crestType">
+        <option value="Weathered Undermine Crest">
+          Weathered Undermine Crest
+        </option>
+        <option value="Carved Undermine Crest">Carved Undermine Crest</option>
+        <option value="Runed Undermine Crest">Runed Undermine Crest</option>
+      </select> -->
+      <div class="crestType">
+        <label for="weatheredAmount">Amount of "Weathered Crest":</label>
+        <input id="weatheredAmount" type="text" />
+      </div>
+      <div class="crestType">
+        <label for="carvedAmount">Amount of "Carved Crest":</label>
+        <input id="carvedAmount" type="text" />
+      </div>
+      <div class="crestType">
+        <label for="runedAmount">Amount of "Runed Crest":</label>
+        <input id="runedAmount" type="text" />
+      </div>
+      <button id="calculation">Give me my crest</button>
+      <div id="result"></div>
+    </div>
+  </body>
+</html>

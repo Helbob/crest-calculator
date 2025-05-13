@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #141414;
+  font-family: Arial, sans-serif;
+  color: whitesmoke;
+  text-align: center;
+}
+
+#calculator {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+#result {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.crestType {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.amount {
+  font-weight: bold;
+  color: #2196f3;
+}
+
+.converted {
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.remainder {
+  color: #757575;
+  font-style: italic;
+}
+
+.final-result {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.total {
+  color: #ff5722;
+}
+
+#result {
+  line-height: 1.6;
+}
+
+#result h3 {
+  color: #333;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
