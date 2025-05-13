@@ -48,7 +48,7 @@ body {
 .final-result {
   margin-top: 20px;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 .total {
@@ -64,6 +64,48 @@ body {
   border-bottom: 2px solid #eee;
   padding-bottom: 10px;
 }
+
+button {
+  background-color: #333;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #6d6d6d;
+}
+
+input {
+  background-color: #2a2a2a;
+  border: 1px solid #404040;
+  border-radius: 4px;
+  color: whitesmoke;
+  padding: 8px 12px;
+  font-size: 1rem;
+  width: 120px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus {
+  outline: none;
+  border-color: whitesmoke;
+  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+}
+
+input:hover {
+  border-color: whitesmoke;
+}
+
+input::placeholder {
+  color: #888;
+}
+
+/* media q */
 
 @media (width <= 600px) {
   #calculator {
